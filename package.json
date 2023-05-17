@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JangRuBin2/TS_compile_prac/issues"
   },
-  "homepage": "https://github.com/JangRuBin2/TS_compile_prac#readme"
+  "homepage": "https://github.com/JangRuBin2/TS_compile_prac#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
