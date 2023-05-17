@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/JangRuBin2/TS_compile_prac#readme",
   "devDependencies": {
+    "@types/node": "^20.1.7",
     "typescript": "^5.0.4"
   }
 }
