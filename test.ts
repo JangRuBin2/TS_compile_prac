@@ -21,5 +21,11 @@ function first(arrayData : string[]) : string[] {
   arr.unshift(result);
   return arr;
 }
+// 기존 배열에 0번째를 최종적으로 바꿔주는 형태
+
+// - …전개 연산자
+// - reduce()
+// - map()
+// - push()
 let data = ['최대건','정성철','허진','이세민'];
 console.log(first(data))
