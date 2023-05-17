@@ -22,4 +22,4 @@ function first(arrayData : string[]) : string[] {
   return arr;
 }
 let data = ['최대건','정성철','허진','이세민'];
-first(data);
+console.log(first(data))
