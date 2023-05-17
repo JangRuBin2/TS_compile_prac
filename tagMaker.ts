@@ -1,8 +1,8 @@
-function Tag(tagName : string, parent : string, Attribute: object) {
+function Tag(tagName : string, parent : HTMLElement, attribute: object) {
   const element = document.createElement(tagName);
   parent.appendChild(element);
-  if (Attribute) {
-    Object.assign(element,Attribute)
+  if (attribute) {
+    Object.assign(element,attribute)
   };
   return element
 };
