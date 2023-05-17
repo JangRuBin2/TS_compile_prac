@@ -5,5 +5,8 @@ const server = http.createServer((req,res)=> {
 });
 
 server.listen(8080,(err)=> {
-  console.log(err)
+  if(err) {
+    console.log(err);
+  }
+  console.log("서버가 정상적으로 연결 됨");
 })
