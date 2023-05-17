@@ -1,5 +1,5 @@
-import http from "http";
-export default http.createServer((req,res)=> {
+import * as http from "http";
+http.createServer((req,res)=> {
   res.writeHead(200,{'Content-Type':'text/html'});
   res.end();
 });
