@@ -3,7 +3,7 @@
  * @ params {array} arrayData
  * @ params {string} insertData
  * @ return {array} 문자열로 된 배열입니다
- * 
+ * @ return {array} 개발 새발
  * 
  * 
  * 
@@ -63,3 +63,5 @@ function first(arrayData : string[], insertString : string) : string[] {
 let data = ['최대건','정성철','허진','이세민'];
 console.log(first(data,"대머리"))
 // console.log(...data)
+// * 스니펫 확인
+// console.log(first())
