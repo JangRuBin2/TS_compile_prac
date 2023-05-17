@@ -23,7 +23,8 @@ function first(arrayData : string[]) : string[] {
   // ! 첫번째
   let kimochi : string = "기모찌";
   let arr : string[] = [];
-  return arr.push(kimochi)
+  arr.push(kimochi);
+  return arr;
 }
 // 기존 배열에 0번째를 최종적으로 바꿔주는 형태
 
