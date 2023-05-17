@@ -16,10 +16,14 @@ function first(arrayData : string[]) : string[] {
   // result = "다른값";
   // let arr : string[] = arrayData.unshift();
   // return arr;
-  let result : string = "강지민";
-  let arr : string[] = []
-  arr.unshift(result);
-  return arr;
+  // let result : string = "강지민";
+  // let arr : string[] = []
+  // arr.unshift(result);
+  // return arr;
+  // ! 첫번째
+  let kimochi : string = "기모찌";
+  let arr : string[] = [];
+  return arr.push(kimochi)
 }
 // 기존 배열에 0번째를 최종적으로 바꿔주는 형태
 
