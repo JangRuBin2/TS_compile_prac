@@ -8,3 +8,6 @@ function Tag(tagName, parent, attribute) {
     return element;
 }
 ;
+Tag("test", document.body, {
+    id: "test"
+});

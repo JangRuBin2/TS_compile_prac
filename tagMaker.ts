@@ -6,3 +6,7 @@ function Tag(tagName : string, parent : HTMLElement, attribute: object) {
   };
   return element
 };
+
+Tag("test", document.body, {
+  id : "test"
+})
